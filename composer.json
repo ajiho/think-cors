@@ -1,4 +1,33 @@
 {
+
     "name": "ajiho/think-cors",
-    "require": {}
+    "description": "cors middleware for thinkphp6",
+    "keywords": ["thinkphp6", "cors","think-cors"],
+    "homepage": "https://gitee.com/ajiho/think-cors",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ajiho\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ajiho",
+            "email": "lujiahao@88.com",
+            "homepage": "https://gitee.com/ajiho",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "topthink/framework": "^6.0.0"
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "cors": "src/config.php"
+            }
+        }
+    }
 }
