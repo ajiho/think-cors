@@ -32,7 +32,8 @@ return [
         'X-Requested-With',
         'Content-Type',
         'Accept',
-        'Authorization'
+        'Authorization',
+        'Cache-Control'
     ],
 
     //允许的方法
@@ -54,3 +55,5 @@ return [
 ```php
 \ajiho\middleware\Cors::class
 ```
+
+
