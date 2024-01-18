@@ -13,6 +13,7 @@ return [
         'Content-Type',
         'Accept',
         'Authorization',
+        'x-forwarded-host',
         'Cache-Control'
     ],
 
